@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.same-line {
+  margin-left: 200px;
+  display: inline-block;
+}
+
+.line-group {
+  border: 1px dotted black;
+}
+
+.cm-1 {
+  margin-top: 10px;
+}
+
+textarea.form-control {
+  width: 500px;
+}
+
+.modal-title{
+  justify-content: center;
+  }
+
+.t-1 {
+  font-size: large;
+}
+
+.t-2 {
+  font-size: medium;
+}
+
+span{
+  display: inline-flex;
+}
+
+.comment{
+  max-width: 750px;
+}
+
+.center{
+   position: absolute;
+   left: 45%;
+}
+
+.center_comp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    position: absolute;
+    right: 78.5%;
+    top: 10%;
+
+}
+
+.no_padding{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.horizontal{
+    float: left;
+}
+
+.round{
+    border-radius: 50%;
+}
