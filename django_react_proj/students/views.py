@@ -46,7 +46,7 @@ class SearchAPIView(viewsets.ModelViewSet):
     filter_class = SearchFilter
     pagination_class = SetLimitOffset
 
-class AverageView(viewsets.ViewSet):
+class CompanyView(viewsets.ViewSet):
 
     def list(self, request):
         companyName = request.query_params.get('company', '')
