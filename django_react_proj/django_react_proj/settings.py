@@ -24,7 +24,7 @@ SECRET_KEY = '&4^m$up_93c%=0_#y0m$imdtirjn357ml6tm99o0s5e(c-zc2d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['kaiburkholder.pythonanywhere.com']
 
 
 # Application definition
