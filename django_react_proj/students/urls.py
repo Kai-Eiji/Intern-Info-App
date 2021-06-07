@@ -8,6 +8,7 @@ router = DefaultRouter()
 router.register(r'all', views.InternViewSet, basename='students')
 router.register(r'search', views.SearchAPIView, basename='search')
 router.register(r'company', views.CompanyView, basename='company')
+router.register(r'ranking', views.RankView, basename='rank')
 
 urlpatterns = [
     path('', include(router.urls)),

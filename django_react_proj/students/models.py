@@ -19,5 +19,5 @@ class Interns(models.Model):
     prev_exp_detail = models.TextField(max_length=300, blank=True)
     comment = models.TextField(max_length =1500, blank=True)
     
-
-        
+class Company(models.Model):
+    cp = models.IntegerField()
